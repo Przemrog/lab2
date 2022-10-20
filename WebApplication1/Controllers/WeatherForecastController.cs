@@ -26,6 +26,9 @@ namespace WebApplication1.Controllers
             calculateInstance.Add(1000);
             calculateInstance.Decrease(990); //powinno wyjsc 33
             return calculateInstance.GetValue();
+            
+              //calculateInstance2 = new Calculate(50);
+            //return newList<int>() {calculateInstance2.GetValue(), calculateInstance.GetValue()
         }
 
     }
